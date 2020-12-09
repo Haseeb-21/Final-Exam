@@ -5,3 +5,15 @@ body {
 div img {
     width: 20%;
 }
+
+@media screen and (min-width: 641px) {
+    body {
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 80vw
+    }
+}
