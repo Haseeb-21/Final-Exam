@@ -10,10 +10,26 @@ div img {
     body {
         width: 640px;
     }
+    header {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 640px) {
     body {
+        text-align: center;
+        margin: auto;
         width: 80vw
     }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+}
+
+.image {
+  
+    width: 100%;
 }
