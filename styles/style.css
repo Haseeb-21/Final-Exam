@@ -27,9 +27,9 @@ div img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .image {
-  
     width: 100%;
 }
